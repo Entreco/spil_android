@@ -1,11 +1,20 @@
 package nl.entreco.spil.android;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
 	
+	/****************************************
+	 * FIELDS
+	 ***************************************/
+	/****************************************
+	 * CONSTRUCTORS
+	 ***************************************/
+
+	/****************************************
+	 * ACTIVITY LIFECYCLE
+	 ***************************************/
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
